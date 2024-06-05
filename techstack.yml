@@ -1,0 +1,42 @@
+repo_name: zhenyuyang0/kickstart.nvim
+report_id: 4713abe322dda251ed2001bd89346152
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-05T05:05:17+00:00'
+requested_by: hoangvietdo
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/zhenyuyang0/kickstart.nvim
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zhenyuyang0/kickstart.nvim
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/zhenyuyang0/kickstart.nvim/blob/master/.github/workflows/stylua.yml
+  detection_source: ".github/workflows/stylua.yml"
+  last_updated_by: Damjan 9000
+  last_updated_on: 2023-12-02 21:27:13.000000000 Z
